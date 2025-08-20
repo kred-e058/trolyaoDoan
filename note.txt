@@ -1,0 +1,51 @@
+class: userMessages
+
+
+
+1. Mouse Events:
+click: Triggered when a mouse button is clicked on an element.
+dblclick: Triggered when a mouse button is double-clicked on an element.
+mousedown: Triggered when a mouse button is pressed down on an element.
+mouseup: Triggered when a mouse button is released on an element.
+mouseover: Triggered when the mouse pointer enters an element.
+mouseout: Triggered when the mouse pointer leaves an element.
+mousemove: Triggered when the mouse pointer moves over an element.
+contextmenu: Triggered when the right-click context menu is requested for an element.
+
+
+2. Keyboard Events:
+keydown: Triggered when a key is pressed down.
+keyup: Triggered when a key is released.
+keypress: Triggered when a key is pressed and released (deprecated for most new uses).
+
+
+3. Form Events:
+focus: Triggered when an element gains focus.
+blur: Triggered when an element loses focus.
+change: Triggered when the value of an input element changes and the element loses focus.
+input: Triggered in real-time as the value of an input element changes.
+submit: Triggered when a form is submitted.
+
+
+4. Window Events:
+load: Triggered when the entire page (including images, scripts, etc.) has finished loading.
+resize: Triggered when the browser window is resized.
+scroll: Triggered when the user scrolls the document or an element.
+
+
+5. Touch Events (for touch-enabled devices):
+touchstart: Triggered when a touch point is placed on the touch surface.
+touchend: Triggered when a touch point is removed from the touch surface.
+touchmove: Triggered when a touch point is moved along the touch surface.
+
+
+6. Drag and Drop Events:
+dragstart, drag, dragend, dragenter, dragleave, dragover, drop.
+
+
+7. Media Events:
+play, pause, ended, volumechange, timeupdate (for audio/video elements).
+
+
+8. Clipboard Events:
+copy, cut, paste.

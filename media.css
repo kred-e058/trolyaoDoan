@@ -1,0 +1,43 @@
+@media screen and (max-width: 767px) {
+    .chat-box {
+        font-size: 20px !important;
+    }
+    body{
+        padding: 10px 16px ;
+        padding-bottom: 200px;
+    }
+    .img-sending{
+        height:50px;
+        width: 70px;  
+        bottom: 5px;
+    }
+    .tagInput{
+        font-size: 17px;
+    }
+    .container{
+        padding: 0px 5%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        padding: 0px;
+    }
+    body{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 1333px) {
+    .container{
+        padding: 0px 5%;
+    }
+}
+@media  (hover:none) and (pointer: coarse) {
+    .img-sending:hover{
+           background-color: transparent !important;
+        }
+    .img-sending{
+        transition: none !important;
+    }
+}
