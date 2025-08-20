@@ -118,7 +118,7 @@ async function callAPI(userMess){
     controller = new AbortController();
     let signal = controller.signal;
     try {
-        const respondse = await fetch('http://localhost:3000/chat',
+        const respondse = await fetch('https://backend-api-trolyaodoan.onrender.com/chat',
             {
                 method: 'POST',
                 headers: {
@@ -141,4 +141,5 @@ async function callAPI(userMess){
         isLoadingMessage = 0;
     }
     await getIMGsending();
+
 }   
