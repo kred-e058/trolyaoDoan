@@ -130,7 +130,6 @@ async function callAPI(userMess){
             }
         )
         const data  = await respondse.json();
-        console.log(data);
         await add_AI_mess(marked.parse(data.choices[0].message.content));
     } catch (error) {
         console.log(error);
@@ -144,5 +143,6 @@ async function callAPI(userMess){
     await getIMGsending();
 
 }   
+
 
 
