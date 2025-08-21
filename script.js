@@ -49,7 +49,7 @@ function add_mess(){
     }
     loadingMessage();
     let container = document.querySelector('.chat-box');
-    if (container.textContent === 'Xin chào! Tôi là trợ lý ảo hỗ trợ tra cứu về hành chính và đoàn viên thanh niên. Tôi có thể giúp gì cho bạn?'){
+    if (container.textContent === 'Xin chào! Tôi là trợ lý của Đoàn xã Cẩm Trung. Tôi có thể giúp gì cho bạn?'){
         container.textContent = '';
         container.style.textAlign = 'end';
         container.style.fontWeight = '425';
@@ -143,6 +143,7 @@ async function callAPI(userMess){
     await getIMGsending();
 
 }   
+
 
 
 
