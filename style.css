@@ -58,7 +58,6 @@ body{
             text-align: start;
             margin-bottom: 7px;
             max-width: 900px;
-            position: relative;
         }
             .message{
                 word-wrap: break-word;
@@ -213,5 +212,6 @@ body{
 
     }
 } */
+
 
 
