@@ -7,7 +7,6 @@ body{
     margin:0;
     padding:10px;
     padding-bottom: 0px;
-    /* padding-bottom: 200px; */
 }
 .header{
     display: flex;
@@ -20,18 +19,28 @@ body{
     width: 100%;
 }
 
-    .logo{
-        height:70px;
-        width: 70px;
-        cursor: pointer;
+    .container-logo-name{
+        display: flex;
+        align-items: center;
     }
+        .logo{
+            height:70px;
+            width: 70px;
+            cursor: pointer;
+        }
+        .name{
+            margin-left:5px;
+            font-family: "Apple system", BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            word-wrap: break-word;
+            font-weight: 700;
+        }
     .infor-Doan{
         height: 50px;
         width: 50px;
         margin-right: 10px;
         cursor:pointer;
     }
-
 
 .container{
     padding: 0px 13%;
